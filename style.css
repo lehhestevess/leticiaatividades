@@ -10,6 +10,7 @@ body, html {
     width: 100%;
     max-width: 600px; /* Defina a largura máxima da tabela */
     border-collapse: collapse;
+    border: 2;
   }
 
   th, td {
