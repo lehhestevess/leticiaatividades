@@ -6,24 +6,9 @@
   <title>Tabela</title>
 </head>
 <body>
-  
-  <script>
-        let count = 0;
-        function incrementCount(){
-          count++;
-          document.getElementById("count-display").textContent = count;
-        }
-      </script>
-    </head>
-    <body>
-         <main>
-            <div class="container">
-                <button onclick="incrementCount()">Clique aqui</button>
-                <p>Total de Cliques: <span id="count-display">0</span> </p>
-                </div>
-    
-<div class="center">
-  <table border="0">
+
+<table>
+  <thead>
     <tr>
       <th>Coluna 1</th>
       <th>Coluna 2</th>
@@ -33,6 +18,8 @@
       <th>Coluna 6</th>
       <th>Coluna 7</th>
     </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>Linha 1, Coluna 1</td>
       <td>Linha 1, Coluna 2</td>
@@ -87,8 +74,17 @@
       <td>Linha 6, Coluna 6</td>
       <td>Linha 6, Coluna 7</td>
     </tr>
-  </table>
-</div>
+    <tr>
+      <td>Linha 7, Coluna 1</td>
+      <td>Linha 7, Coluna 2</td>
+      <td>Linha 7, Coluna 3</td>
+      <td>Linha 7, Coluna 4</td>
+      <td>Linha 7, Coluna 5</td>
+      <td>Linha 7, Coluna 6</td>
+      <td>Linha 7, Coluna 7</td>
+    </tr>
+  </tbody>
+</table>
 
 </body>
 </html>
