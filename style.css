@@ -1,12 +1,12 @@
 .a {
-    background-color:#bfa8f5;
+    background-color:#f7d8fc;
     padding: 20px;
     text-align: center;
   }
   button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #ad6cf8;
+    background-color: #ffa9ea;
     color: #f8f8f8;
     border: none;
     border-radius: 5px;
@@ -23,15 +23,15 @@
         border-collapse: collapse;
     }
     th, td {
-        border: 1px solid #c6a4e2;
+        border: 1px solid #ffa9ea;
         padding: 8px;
         text-align: left;
     }
     th {
-        background-color: #ac7dc7;
+        background-color: #ffa9ea;
     }
     tr:nth-child(even) {
-        background-color: #e6c8ff;
+        background-color: #ffa9ea;
     }
     h1{
         text-align: center;
