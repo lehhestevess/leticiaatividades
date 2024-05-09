@@ -36,3 +36,26 @@
     h1{
         text-align: center;
     }
+
+    @media only screen and (max-width: 1000px) {
+        header {
+          font-size: 20px;
+        }
+  
+        nav a {
+          font-size: 16px;
+        }
+  
+        .container {
+          padding: 10px;
+        }
+  
+        .recommendation {
+          width: calc(33.33% - 20px); 
+          font-size: 12px;
+        }
+  
+        .recommendation h3,
+        .recommendation p {
+          font-size: 14px;
+        }
